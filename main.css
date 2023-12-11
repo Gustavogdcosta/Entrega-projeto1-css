@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(30, 148, 184, 0.637) ;
+    color: white; 
+    padding: 16px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.products_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#products h2,
+#recipes h2,
+#our_history h2{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#products img,
+#recipes img{
+    height: 420px;
+    margin-right: 50px;
+}
+
+#products p{
+    margin-bottom: 10px;
+}
+
+#products li{
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
+
+#products a { 
+    text-decoration: none;
+    color: rgba(30, 148, 184, 1) ;
+}
+
+#products a:hover{
+    text-decoration: underline;
+}
+
+#recipes .recipe_frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+#recipes button {
+    margin: 120px 0 0 180px;
+    padding: 30px;
+    background-color: rgba(30, 148, 184, 1) ;
+    color: white;
+    font-size: 15px;
+}
+
+#recipes button:hover {
+    background-color: rgba(30, 148, 184, 0.5);
+}
+
+#recipes img {
+    margin: auto 0 auto 50px; 
+}
+
+.adress img {
+    width: 100px;
+}
+
+.social_links img{
+    height: 24px;
+    margin-right: 6px;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
